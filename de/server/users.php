@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'permissions' => [
+        'websocket_*' => 'Erlaubt den Zugriff auf den WebSocket für diesen Server.',
+        'control_console' => 'Erlaubt dem Benutzer, Daten an die Server-Konsole zu senden.',
+        'control_start' => 'Erlaubt dem Benutzer, die Serverinstanz zu starten.',
+        'control_stop' => 'Erlaubt dem Benutzer, die Serverinstanz zu stoppen.',
+        'control_restart' => 'Erlaubt dem Benutzer, die Serverinstanz neu zu starten.',
+        'control_kill' => 'Erlaubt dem Benutzer, die Serverinstanz zu beenden.',
+        'user_create' => 'Erlaubt dem Benutzer, neue Benutzerkonten für den Server zu erstellen.',
+        'user_read' => 'Erlaubt dem Benutzer, Benutzer anzuzeigen, die mit diesem Server verknüpft sind.',
+        'user_update' => 'Erlaubt dem Benutzer, andere Benutzer zu ändern, die mit diesem Server verknüpft sind.',
+        'user_delete' => 'Erlaubt dem Benutzer, andere Benutzer zu löschen, die mit diesem Server verknüpft sind.',
+        'file_create' => 'Erlaubt dem Benutzer, neue Dateien und Verzeichnisse zu erstellen.',
+        'file_read' => 'Erlaubt dem Benutzer, Dateien und Ordner dieser Serverinstanz zu sehen und deren Inhalte anzuzeigen.',
+        'file_update' => 'Erlaubt dem Benutzer, Dateien und Ordner des Servers zu aktualisieren.',
+        'file_delete' => 'Erlaubt dem Benutzer, Dateien und Verzeichnisse zu löschen.',
+        'file_archive' => 'Erlaubt dem Benutzer, Dateiarchive zu erstellen und vorhandene Archive zu entpacken.',
+        'file_sftp' => 'Erlaubt dem Benutzer, die oben genannten Dateiaktionen über einen SFTP-Client durchzuführen.',
+        'allocation_read' => 'Erlaubt den Zugriff auf die Verwaltungsseiten der Serverzuweisungen.',
+        'allocation_update' => 'Erlaubt dem Benutzer, Änderungen an den Serverzuweisungen vorzunehmen.',
+        'database_create' => 'Erlaubt dem Benutzer, eine neue Datenbank für den Server zu erstellen.',
+        'database_read' => 'Erlaubt dem Benutzer, die Datenbanken des Servers anzuzeigen.',
+        'database_update' => 'Erlaubt dem Benutzer, Änderungen an einer Datenbank vorzunehmen. Falls der Benutzer nicht über die Berechtigung „Passwort anzeigen“ verfügt, kann er das Passwort nicht ändern.',
+        'database_delete' => 'Erlaubt dem Benutzer, eine Datenbankinstanz zu löschen.',
+        'database_view_password' => 'Erlaubt dem Benutzer, ein Datenbankpasswort im System anzuzeigen.',
+        'schedule_create' => 'Erlaubt dem Benutzer, einen neuen Zeitplan für den Server zu erstellen.',
+        'schedule_read' => 'Erlaubt dem Benutzer, Zeitpläne für einen Server anzuzeigen.',
+        'schedule_update' => 'Erlaubt dem Benutzer, Änderungen an einem bestehenden Server-Zeitplan vorzunehmen.',
+        'schedule_delete' => 'Erlaubt dem Benutzer, einen Zeitplan für den Server zu löschen.',
+    ],
+];
